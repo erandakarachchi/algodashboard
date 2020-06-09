@@ -36,7 +36,7 @@ npm start
 
 
 
-More about Insertion sort can be found [Here]([https://github.com/erandakarachchi/today-i-learned/blob/master/dsa/Insertion%20Sort.md](https://github.com/erandakarachchi/today-i-learned/blob/master/dsa/Insertion Sort.md))
+More about Insertion sort can be found [Here](https://github.com/erandakarachchi/today-i-learned/blob/master/dsa/Insertion Sort.md)
 
 ### To Do
 
