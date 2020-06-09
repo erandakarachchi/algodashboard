@@ -11,9 +11,9 @@ export default class ArrayNode extends Component {
     }
 
     render() {
-        const {value} = this.props
+        const {value,color} = this.props
         return (
-            <div className="array-node" style={{height:value*3+"px"}}>
+            <div className="array-node" style={{ height: value * 3 + "px", backgroundColor:color}}>
                 {value}
             </div>
         )
