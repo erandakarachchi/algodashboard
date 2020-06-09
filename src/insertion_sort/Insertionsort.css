@@ -1,0 +1,12 @@
+.array-node{
+    width: 40px;
+    height: 100px;
+    background-color: #ffd271;
+    float: left;
+    margin-left:20px ;
+}
+
+.sort-container{
+    display: flex;
+    justify-content: center;
+}

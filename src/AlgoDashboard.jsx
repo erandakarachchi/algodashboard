@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import InsertionSort from "./insertionsort/InsertionSort"
+
+import InsertionSort from "./insertion_sort/InsertionSort"
 
 export default class AlgoDashboard extends Component {
     render() {

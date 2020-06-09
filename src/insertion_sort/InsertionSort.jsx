@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import ArrayNode from "./ArrayNode"
+import SiteHeader from "./../common_components/SiteHeader"
+
 
 export default class InsertionSort extends Component {
     constructor(props) {
         super(props)
 
         this.state = {
-            unsortedArray: [150,90,80,65,43,54,43,65,2,74,98,43,76,32]
+            unsortedArray: [150,90,80,65,43,54,43,65,10,74,98,43,76,32,54]
         }
 
         this.renderArrayNodes = this.renderArrayNodes.bind(this);
@@ -39,7 +41,7 @@ export default class InsertionSort extends Component {
     }
 
     componentDidMount() {
-        this.insertionSort()
+       
     }
 
     renderArrayNodes = () => {
@@ -60,8 +62,8 @@ export default class InsertionSort extends Component {
     render() {
         return (
             <div>
-                InsertionSort
-                <div>
+                <SiteHeader onVisualizeClick={this.insertionSort}></SiteHeader>
+                <div className="sort-container">
                     {
                         this.renderArrayNodes()
                     }

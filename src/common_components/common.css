@@ -1,0 +1,36 @@
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #f65c78;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    float: left;
+    color: #f8dc88;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+
+.btn-visualize{
+    background-color: #709fb0;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    display: inline-block;
+}
+.btn-visualize:hover{
+    background-color: white;
+    color: #709fb0;
+}
+.btn-visualize:focus{
+    border: none;
+    outline: none;
+}
